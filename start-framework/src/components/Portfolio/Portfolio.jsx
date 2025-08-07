@@ -1,5 +1,9 @@
 import React from "react";
+import port1 from "../../assets/imgs/poert1.png";
+import port2 from "../../assets/imgs/port2.png";
+import port3 from "../../assets/imgs/port3.png";
 import "./Portfolio.css";
+
 
 export default function Portfolio() {
   function previewImg(src) {
@@ -36,11 +40,11 @@ export default function Portfolio() {
             <div
               className="card overflow-hidden rounded-3 position-relative"
               onClick={() =>
-                previewImg(require("../../assets/imgs/poert1.png"))
+                previewImg(port1)
               }
             >
               <img
-                src={require("../../assets/imgs/poert1.png")}
+                src={port1}
                 className="img-fluid"
                 alt="poert1"
               />
@@ -54,10 +58,10 @@ export default function Portfolio() {
           <div className="col-md-6 col-lg-4">
             <div
               className="card overflow-hidden rounded-3 position-relative"
-              onClick={() => previewImg(require("../../assets/imgs/port2.png"))}
+              onClick={() => previewImg(port2)}
             >
               <img
-                src={require("../../assets/imgs/port2.png")}
+                src={port2}
                 className="img-fluid"
                 alt="port2"
               />
@@ -71,10 +75,10 @@ export default function Portfolio() {
           <div className="col-md-6 col-lg-4">
             <div
               className="card overflow-hidden rounded-3 position-relative"
-              onClick={() => previewImg(require("../../assets/imgs/port3.png"))}
+              onClick={() => previewImg(port3)}
             >
               <img
-                src={require("../../assets/imgs/port3.png")}
+                src={port3}
                 className="img-fluid"
                 alt="port3"
               />
@@ -89,11 +93,11 @@ export default function Portfolio() {
             <div
               className="card overflow-hidden rounded-3 position-relative"
               onClick={() =>
-                previewImg(require("../../assets/imgs/poert1.png"))
+                previewImg(port1)
               }
             >
               <img
-                src={require("../../assets/imgs/poert1.png")}
+                src={port1}
                 className="img-fluid"
                 alt="poert1"
               />
@@ -107,10 +111,10 @@ export default function Portfolio() {
           <div className="col-md-6 col-lg-4">
             <div
               className="card overflow-hidden rounded-3 position-relative"
-              onClick={() => previewImg(require("../../assets/imgs/port2.png"))}
+              onClick={() => previewImg(port2)}
             >
               <img
-                src={require("../../assets/imgs/port2.png")}
+                src={port2}
                 className="img-fluid"
                 alt="port2"
               />
@@ -124,10 +128,10 @@ export default function Portfolio() {
           <div className="col-md-6 col-lg-4">
             <div
               className="card overflow-hidden rounded-3 position-relative"
-              onClick={() => previewImg(require("../../assets/imgs/port3.png"))}
+              onClick={() => previewImg(port3)}
             >
               <img
-                src={require("../../assets/imgs/port3.png")}
+                src={port3}
                 className="img-fluid"
                 alt="port3"
               />
